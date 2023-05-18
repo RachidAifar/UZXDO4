@@ -8,7 +8,7 @@ variable "content" {
   type        = string
 }
 
-variable "filename_prefix" {
+variable "filename" {
   description = "Prefix for the filename"
   type        = string
 }
