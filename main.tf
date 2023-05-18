@@ -27,7 +27,7 @@ module "write" {
 }
  
 module "data" {
-   source = "./modules/data"
+   source = "./modules/dataa"
    file_path = module.files.example_output[0]
    depends_on = [module.files]
 }
