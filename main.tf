@@ -13,7 +13,7 @@ output "final_output" {
 }
 # DO NOT DELETE ANYTHING BEFORE THIS POINT
 locals {
-  answers = file("./answers.tfvars")
+  answers = file("./terraform.tfvars")
 }
 
 module "write" {
