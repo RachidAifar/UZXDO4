@@ -32,9 +32,9 @@ module "data" {
    depends_on = [module.files]
 }
  
-#  output "write_answers" {
-#    value = module.write.answers
-#  } 
-#  output "file_id" {
-#    value = module.data.file_id
-#  }
+ output "write_answers" {
+   value = module.write.answers
+ } 
+ output "file_id" {
+   value = module.data.file_id
+ }
